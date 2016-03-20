@@ -7,7 +7,7 @@ export default class StoreItem extends Component {
     return (
       <div className="store-item">
           <div className="store-item__image">
-          
+              img
           </div>
           <div className="store-item__name">
 
