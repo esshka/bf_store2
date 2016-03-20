@@ -8,7 +8,9 @@ export default class Item extends Component {
     return (
       <div className="item">
           <div className="item-image">
-            <img src={item.img} />
+            <div className="item-image-wrapper">
+                <img src={item.img} />
+            </div> 
           </div>
           <hr/>
           <div className="item-text">
